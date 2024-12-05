@@ -4,6 +4,16 @@ Device: Redmi Note 10 (mojito)
 Device maintainer: Anush02198
 
 ====================
+    05-12-2024
+====================
++ Added bunch of enchancement from Westcoast XX
++ Updated Kernel to V4.14.355 openEla
++ Kernel CLO tag upstreamed to Merge tag 'LA.UM.9.1.r1-16400-SMxxx0.QSSI14.0'.
++ Drop LMKD and switched to PSI.
++ Fixed NFC spams.
++ Some minor optimization for improved smothness.
+
+====================
     10-11-2024
 ====================
 + Added few enchancement from Westcoast XX
