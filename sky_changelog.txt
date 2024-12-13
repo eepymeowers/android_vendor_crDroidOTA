@@ -6,6 +6,10 @@ Build type: Monthly
 Device: Redmi 12 5G (sky)
 Device maintainer: Mourya Baruah
 
+===2024.12.13======
+* December Security Patches
+* Miscellenous updates
+
 ====2024.10.13======
 * October security patches
 * Fixed launcher hotseat icons overflowing in landscape mode
