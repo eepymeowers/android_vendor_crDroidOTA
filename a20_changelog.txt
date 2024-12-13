@@ -3,6 +3,18 @@ Build type: Monthly
 Device: Samsung Galaxy A20 (a20)
 Device maintainer: Ivy (Lost-Entrepreneur439)
 
+===== 12-12-2024 =====
+- Update to crDroid 10.11
+- FlashControl: correct intensity spelling and modify footer message
+- debug-tools: bootlogger: Use fmtlib and modernize code
+- debug-tools: bootlogger: Use fmtlib for AVCContexts
+- AuditToAllow: Fix crash when avc: is not included
+- debug-tools: bootlogger: Use fork for logcat
+- debug-tools: bootlogger: Fix audit formatting
+- debug-tools: Logger: Discard LibcPropsFilter
+- debug-tools: bootlogger: Write timestamp to sperate file
+- debug-tools: bootlogger: Add compability with older ver
+
 ===== 11-17-2024 =====
 - Update to crDroid 10.10
 
