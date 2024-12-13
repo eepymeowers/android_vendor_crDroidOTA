@@ -4,6 +4,12 @@ Device: Nintendo Switch (nx_tab)
 Device maintainer: Ivy (Lost-Entrepreneur439)
 Required firmware: Hekate 6.1.0
 
+===== 12-12-2024 =====
+- Update to crDroid 10.11
+- nx: Opt-out of forced 1080p scaling
+- edk2: Build target with gcc
+- Support modularized sensors
+
 ===== 11-17-2024 =====
 - Update to crDroid 10.10
 - nx_tab Make manufacturer match nx target
