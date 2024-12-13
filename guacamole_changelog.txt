@@ -1,7 +1,13 @@
 Highlights & Device Specific Changes:
-Build type: Monthly
+Build type: Final
 Device: OnePlus 7 PRO (guacamole)
 Device maintainer: Lup Gabriel (gwolfu)
+
+===== 12 December, 2024 =====
+
+- Initial crDroid 10.10 release
+- December security patches
+- Some other small changes
 
 ===== 17 November, 2024 =====
 
