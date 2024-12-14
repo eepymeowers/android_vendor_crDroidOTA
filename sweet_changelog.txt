@@ -7,6 +7,17 @@ Required firmware: MIUI (Global): V14.x
 Highlights & Device Specific Changes:
 
 ==================================
+14th December, 2024
+
+* Android December 2024 Security Update
+* Fixed failing basic SafetyNet attestation without root (again)
+* Add support to fetch working attestation props from website automatically
+* Add toggle for smartspace on lockscreen
+* Add customization for double tap recents key
+* Improvements for GameSpace
+* Add customization for statusbar extra padding
+
+==================================
 16th November, 2024
 
 * Android November 2024 Security Update
