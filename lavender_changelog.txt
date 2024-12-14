@@ -3,6 +3,12 @@ Build type: Monthly
 Device: Redmi Note 7/s (lavender)
 Device maintainer: tilt-rgb
 
+== 14 December , 2024 =====
+
+- Revert adreno v490 drivers (fixes camera)
+- Play Integrity fixed
+- Synced latest crDroid source
+
 == 15 September , 2024 =====
 
 *HOT-FIX*
