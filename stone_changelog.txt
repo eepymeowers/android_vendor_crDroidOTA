@@ -6,6 +6,11 @@ Build type: Monthly
 Device: Redmi Note 12 5G / Poco X5 5G
 Device maintainer: Ishaan
 
+===== 12-12-2024 =====
+
+* Synced with latest crDroidAndroid source code
+* December 2024 Security Patches
+
 ===== 17-11-2024 =====
 
 * Synced with latest crDroidAndroid source code
