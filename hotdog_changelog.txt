@@ -3,6 +3,17 @@ Build type: Monthly
 Device: OnePlus 7T PRO (hotdog)
 Device maintainer: ShEV (ShevT)
 
+===== 20241214 =====
+- Android December 2024 Security Update
+- Fixed failing basic SafetyNet attestation without root (again)
+- Add support to fetch working attestation props from website automatically
+- Add toggle for smartspace on lockscreen
+- Add customization for double tap recents key
+- OPlusExtras: Fixing restore fsync settings after reboot
+- Improvements for GameSpace
+- Add customization for statusbar extra padding
+- Some other small changes
+
 ===== 20241117 =====
 - Android November 2024 Security Update
 - Allow setting upto 6 QS columns in landscape
