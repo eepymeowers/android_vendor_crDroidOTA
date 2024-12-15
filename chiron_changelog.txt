@@ -7,6 +7,9 @@ Device: Xiaomi Mi Mix 2 (chiron)
 Device maintainer: manty
 
 
+===== 2024-12-15 =====
+Update to crDroid 10.11 (Dec 2024 ASB)
+
 ===== 2024-11-17 =====
 Update to crDroid 10.10 (Nov 2024 ASB)
 
