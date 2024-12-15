@@ -3,6 +3,10 @@ Build type: Final
 Device: OnePlus 7 PRO (guacamole)
 Device maintainer: Lup Gabriel (gwolfu)
 
+===== 15 December, 2024 =====
+
+- Fixed Integrity pass (last build)
+
 ===== 12 December, 2024 =====
 
 - Initial crDroid 10.10 release
