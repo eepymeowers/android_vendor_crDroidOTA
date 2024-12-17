@@ -6,7 +6,14 @@ Build type: Monthly
 Device: Redmi 12 5G (sky)
 Device maintainer: Mourya Baruah
 
-===2024.12.13======
+====2024.12.17======
+* SystemUI: Add proper toggle for smartspace 
+* Make default permissions updates tied to version incremental
+* Allow setting recents key double tap default behavior
+* certification: Update overla
+*  gms_certified_props: update to latest tokay_beta
+
+====2024.12.13======
 * December Security Patches
 * Miscellenous updates
 

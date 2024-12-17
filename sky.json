@@ -1,28 +1,28 @@
 {
-        "response": [
-                {
-                        "maintainer": "Mourya Baruah",
-                        "oem": "Redmi",
-                        "device": "Redmi 12 5G",
-                        "filename": "crDroidAndroid-14.0-20241213-sky-v10.11.zip",
-                        "download": "https://sourceforge.net/projects/crdroid/files/sky/10.x/crDroidAndroid-14.0-20241213-sky-v10.11.zip/download",
-                        "timestamp": 1734066158,
-                        "md5": "5a8696170ee3db1f1ae643f2f4505225",
-                        "sha256": "9c522aa2cc22035235fe771918e1e848e4251b72153529b8b7d4cd29c5f7c212",
-                        "size": 1209223850,
-                        "version": "10.11",
-                        "buildtype": "Monthly",
-                        "forum": "https://xdaforums.com/t/rom-14-0-crdroid-10-2-redmi-12-5g-poco-m6-pro-5g-redmi-12r-5g-sky.4660956/",
-                        "gapps": "https://sourceforge.net/projects/mourya-sky/files/crdroid/BiTGApps-arm64-14.0.0-v3.6-mourya.zip/download",
-                        "firmware": "https://sourceforge.net/projects/mourya-sky/files/crdroid/fw_sky_miui_SKYINGlobal_OS1.0.5.0.UMWINXM_bc3213035d_14.0.zip/download",
-                        "modem": "",
-                        "bootloader": "",
-                        "recovery": "",
-                        "paypal": "",
-                        "telegram": "https://t.me/mourya_sky_support",
-                        "dt": "https://github.com/crdroidandroid/android_device_xiaomi_sky",
-                        "common-dt": "",
-                        "kernel": "https://github.com/crdroidandroid/android_kernel_xiaomi_sky"
-                }
-        ]
+	"response": [
+		{
+			"maintainer": "Mourya Baruah",
+			"oem": "Redmi",
+			"device": "Redmi 12 5G",
+			"filename": "crDroidAndroid-14.0-20241217-sky-v10.11.zip",
+			"download": "https://sourceforge.net/projects/crdroid/files/sky/10.x/crDroidAndroid-14.0-20241217-sky-v10.11.zip/download",
+			"timestamp": 1734415007,
+			"md5": "bb9cfbf334d4a79f0bf91e814d7c28da",
+			"sha256": "562713170ffa4fce6663c8626a1f588f2cdd5778532c68c427906344ce8fc2c8",
+			"size": 1209155728,
+			"version": "10.11",
+			"buildtype": "Monthly",
+			"forum": "https://xdaforums.com/t/rom-14-0-crdroid-10-2-redmi-12-5g-poco-m6-pro-5g-redmi-12r-5g-sky.4660956/",
+			"gapps": "https://sourceforge.net/projects/mourya-sky/files/crdroid/BiTGApps-arm64-14.0.0-v3.6-mourya.zip/download",
+			"firmware": "https://sourceforge.net/projects/mourya-sky/files/crdroid/fw_sky_miui_SKYINGlobal_OS1.0.5.0.UMWINXM_bc3213035d_14.0.zip/download",
+			"modem": "",
+			"bootloader": "",
+			"recovery": "",
+			"paypal": "",
+			"telegram": "https://t.me/mourya_sky_support",
+			"dt": "https://github.com/crdroidandroid/android_device_xiaomi_sky",
+			"common-dt": "",
+			"kernel": "https://github.com/crdroidandroid/android_kernel_xiaomi_sky"
+		}
+	]
 }
