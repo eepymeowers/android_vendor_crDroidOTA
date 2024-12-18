@@ -1,7 +1,10 @@
 Highlights & Device Specific Changes:
-Build type: Monthly
+Build type: Final
 Device: OnePlus 7T PRO (hotdog)
 Device maintainer: ShEV (ShevT)
+
+===== 20241218 =====
+- Final build. There will be no more updates.
 
 ===== 20241214 =====
 - Android December 2024 Security Update
