@@ -128,3 +128,9 @@ Device maintainer: Zed (Zed9K)
 - Introduce Nov SP
 - Upstream to latest changes by crDroid
 - Bug fixes
+
+===== <20th of Dec 2024> =====
+- Upstream to 10.11
+- Introduce Dec SP
+- Upstream to latest changes by crDroid
+- Bug fixes
