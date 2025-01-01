@@ -1,19 +1,18 @@
-crDroid 10.10
+crDroid 10.11
 _Kernel 4.9, retrofit dynamic partitions, release-keys signed_
 
-Changes since v10.9 (22 October) release:
-- November 2024 Android Security Bulletins (android-14.0.0_r67) merged from upstream AOSP & LineageOS.
+Changes since v10.10 (02 December) release:
+- December 2024 Android Security Bulletins (android-14.0.0_r67) merged from upstream AOSP & LineageOS.
 - Changes from upstream LineageOS:
   - I have no idea what all, but they're always hard at work doing amazing stuff that benefits everyone.
-  - Pulled in the latest dummy libqti-perfd-client patches (not yet officially merged) from LineageOS gerrit.
-  - Updated device-specific tree & kernel sources from lineage-21 branch as of end of November. Merged some stuff from general qcom_sdm845 kernel, updated proprietary blobs extract related stuff, nothing huge. Work has shifted to Android 15 bringup.
+  - Latest dummy libqti-perfd-client patches finally merged!
+  - Updated device-specific tree & kernel sources from lineage-21 branch as of end of December. Merged some stuff from general qcom_sdm845 kernel, updated proprietary blobs extract related stuff, nothing huge. Work has shifted to Android 15 bringup.
 - Upstream changes from crDroid ROM sources:
   - Updated translations.
-  - Fixes for memory leaks & calculations backported from 15.0 branch work in frameworks/base.
-  - We also seem to have the adjustable statusbar content padding controls in crDroid Settings again, woo!
+  - Finally get adjustable statusbar start/end padding adjustment back! And vertical offset as well, so if you hate the perfection that I've already achieved, you can make it worse if you want. ;)
+  - More fixes & stuff backported from Android 15 I think. I dunno, no huge changes that I noticed.
 - Device-specific things I can't stop screwing around with:
-  - Fixed up things regarding doze & pocketmode. You should enable BOTH the "prevent accidental wakeup" toggle under "Settings > Display", and the "Pocket detection" toggle under "Settings > crDroid Settings > Miscellaneous".
-  - Also, switching to using LineageOS sensor-based doze customization instead of the crDroid framework ones, since it actually works properly in this configuration to let Ambient Display go to sleep when the proximity sensor is covered (like being in your pocket).
+  - FIXED UPDATED WPA3-COMPATIBLE KERNEL WIFI DRIVER POWER CONSUMPTION! Needed updated "use power-efficient workingqueue" commits for the newer-style driver. Thanks to DennySPb having figured that out 2 years ago in SyberiaOS 12.1 kernel that included newer style qcacld-3.0 driver and appropriate PEWQ commits.
   - Dunno, I'm sure there was a lot of stuff tested out & tweaked, but I honestly do not remember. Life is busy.
 - "Misc bugfixes and improvements."
 - Added new bugs so I'll have something to fix later. :D
@@ -23,6 +22,7 @@ Release Notes:
 - TL;DR make sure you do the following setup steps or don't bother submitting bug reports:
   - Go to Settings > Apps > Default Apps > tap the Gear (settings) icon next to crDroid Home (the default launcher) to open "Home settings" > Recents > turn OFF the "Shake phone to clear all tasks" toggle switch (it causes terrible SystemUI slowdowns & crashes after a couple hours).
   - Make sure to enable or disable BOTH "Settings > Display > Prevent accidental wake-up" and "Settings > crDroid Settings > Miscellaneous > Pocket detection" toggles together; it might do strange things with only one or the other.
+  - Be sure that any Google background-audio-detection features like "Now Playing" background music detection and "Live Caption" speech-to-text detection are disabled. They rely on modifications to the Qualcomm "listen" audio configs (same underlying features that "Hey Google" hotword detection uses) that Pixels have, which we do NOT have, and will cause massive background battery drain & audio control lag/stuttering. Best to disable Hotword detection if you don't need it; save battery.
   - [Optional if you use Oneplus Camera/Gallery] Go to https://gitlab.com/crdroidandroid/android_vendor_oneplus_apps/-/tree/14.0/sdm845/vendor/priv-app?ref_type=heads and download the APKs for OnePlusCamera and OnePlusGallery, then install them (it will ask you if you want to update the existing apps; choose yes each time).
   - [Optional if you use Oneplus Camera/Gallery] Go get this thing https://mega.nz/file/UHpDQS4L#FGKPas4_OM2Z5b5iE1R0zNZKUEa069uPJ7NAiluViXI and put it into Internal Storage > Android > obb > com.oneplus.gallery since it doesn't download correctly in-app due to sepolicy things I can't be bothered with in Android 14 (or don't if you don't care about OP Gallery being able to do image classification).
 - To use "Device As Webcam" feature, connect USB to a computer, and in the USB mode notification, instead of "charging this device" or "File Transfer/Android Auto", choose the new "Webcam" option from the list. Ta da!
@@ -52,121 +52,40 @@ Device maintainer: Jordan Whiteley (Terminator_J)
 Required firmware: OxygenOS 11.1.2.2
 
 ====================
-     12-02-2024
+     12-23-2024
+====================
+
+   * vendor/certification
+6a68afa certification: Update to latest lynx_beta (#1)
+
+====================
+     12-22-2024
 ====================
 
    * frameworks/base
-8219b8630b8a GameSpace: Improvements for detecting foreground app exit
-e02dda74c0c3 Partially revert "SystemUI: Fixup applying statusbar extra padding"
-2426adfa1798 SystemUI: Fixup applying statusbar extra padding
-b91ef2711ebe SystemUI: Sync power menu and restart menu layout
-1d1051477e29 Weather Tile: Launch Omnijaws weather activity if there are no weather apps available
-9b97ab8614a1 base: Add customization for double tap recents key [2/3]
-caffd3de9a62 base: Use SingleKeyRule for app switch long press
-5a6f97c64cd1 fixup! Implement edge long swipe gesture
-
-   * lineage-sdk
-4e950528 sdk: Add customization for double tap recents key [1/3]
-
-   * packages/apps/Aperture
-cba6c52 Automatic translation import
-
-   * packages/apps/AudioFX
-185cd41 Automatic translation import
-
-   * packages/apps/DeskClock
-2828ae1a4 Automatic translation import
-
-   * packages/apps/Eleven
-0c6eb90c Automatic translation import
-
-   * packages/apps/Etar
-396a4e9c Automatic translation import
-
-   * packages/apps/FlipFlap
-5ee8e31 Automatic translation import
+7b15838323a9 New Crowdin updates (#1194)
 
    * packages/apps/GameSpace
-6f840ac GameSpace: Reduce text size for title and clock
-
-   * packages/apps/Jelly
-facf3f3 Automatic translation import
-
-   * packages/apps/Profiles
-d77fe62 Automatic translation import
-
-   * packages/apps/Recorder
-6d2b0b0 Automatic translation import
-
-   * packages/apps/crDroidSettings
-d95aa29 crdroid: Add customization for double tap recents key [3/3]
-
-   * packages/providers/DownloadProvider
-e05cc5f9 Automatic translation import
-
-   * packages/resources/devicesettings
-33e71ed Automatic translation import
-
-   * packages/services/Mms
-399abfb Automatic translation import
-
-   * vendor/crowdin
-15a184c Automatic translation import
-
-====================
-     12-01-2024
-====================
-
-   * hardware/lineage/compat
-ebbf14d libhidlbase-v32: Mark as recovery_available
-c5908e2 libhidlbase-v32: Allow on system_ext
-862d7d2 compat: Provide libhidlbase-v32
-
-   * packages/apps/Settings
-745ff0f2d6d Settings: Remove unimplemented prefs from SettingsGoogle
-
-====================
-     11-29-2024
-====================
-
-   * packages/apps/crDroidSettings
-0a342dc New Crowdin updates (#1201)
-
-====================
-     11-27-2024
-====================
+71d254b New Crowdin updates (#100)
 
    * packages/apps/Launcher3
-eab28d6bf9 New translations cr_strings.xml (Italian) (#459)
-
-====================
-     11-26-2024
-====================
-
-   * frameworks/base
-a85a44d63360 New Crowdin updates (#1182)
+59ba840166 New translations (#466)
 
    * packages/apps/crDroidSettings
-aebbead New translations (#1199)
+763622b New Crowdin updates (#1209)
 
 ====================
-     11-25-2024
+     12-21-2024
 ====================
 
-   * hardware/qcom-caf/common
-c8166fd libqti-perfd-client: Remove undesired logging
-2c6ead9 libqti-perfd-client: Define dummy perf_hint_renew method
-883ea85 libqti-perfd-client: Correct report values and types of methods
+   * external/chromium-webview/prebuilt/arm
+2b6b7b9 Update Chromium Webview arm prebuilt to 131.0.6778.200
 
-   * prebuilts/clang/host/linux-x86/clang-latest
-737c849 Update prebuilt Clang to r536225 (19.0.1).
+   * external/chromium-webview/prebuilt/arm64
+ade1035 Update Chromium Webview arm64 prebuilt to 131.0.6778.200
 
-====================
-     11-23-2024
-====================
+   * external/chromium-webview/prebuilt/x86
+56aea9f Update Chromium Webview x86 prebuilt to 131.0.6778.200
 
-   * packages/apps/Launcher3
-b591ec3bae New translations (#456)
-
-   * packages/apps/crDroidSettings
-47b8fbe New Crowdin updates (#1197)
+   * external/chromium-webview/prebuilt/x86_64
+f690caf Update Chromium Webview x86_64 prebuilt to 131.0.6778.200
