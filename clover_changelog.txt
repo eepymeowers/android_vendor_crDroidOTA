@@ -3,6 +3,10 @@ Build type: Monthly
 Device: Xiaomi Mi Pad 4 (clover)
 Device maintainer: Peter Meiser (meiser79)
 
+===== 15 January, 2025 =====
+- Sync with crDroid sources
+- Add KernelSU Next manager support
+
 ===== 12 December, 2024 =====
 - Initial crDroid 10.11 release
 
