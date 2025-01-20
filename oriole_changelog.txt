@@ -4,6 +4,9 @@ Device: Google Pixel 6 (oriole)
 Device maintainer: Ivy (Lost-Entrepreneur439)
 Required firmware: Android 14
 
+===== 01-20-2025 =====
+- Update to crDroid 10.12
+
 ===== 12-12-2024 =====
 - Update to crDroid 10.11
 
