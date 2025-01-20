@@ -4,6 +4,21 @@ Device: Nintendo Switch (nx_tab)
 Device maintainer: Ivy (Lost-Entrepreneur439)
 Required firmware: Hekate 6.1.0
 
+===== 01-20-2025 =====
+- Update to crDroid 10.12
+- uscript: match L4T in function and style
+- nx: sepolicy: More sepolicy
+- nx: sepolicy: Label new vendor joycond properties
+- nx: sepolicy: Allow hal_health_default to access sysfs
+- nx: powerhal: remove useless xml
+- Reapply "nx: Upgrade to new AIDL joycond"
+- nx: include joycond sepolicy if present
+- nx: sepolicy: Move most joycon sepolicy to joycond repo
+- Reapply "joycond: convert to binderized AIDL HAL"
+- joycond: sepolicy
+- joycon: minor refactor & fixes
+- nl80211: add WPA3 definition for SAE authentication
+
 ===== 12-12-2024 =====
 - Update to crDroid 10.11
 - nx: Opt-out of forced 1080p scaling
