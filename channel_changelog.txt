@@ -5,6 +5,10 @@ Device maintainer: Lightzin021
 
 ===== 20241212 =====
 - Bump to crDroid 10.11 release
+- January security patches
+
+===== 20241212 =====
+- Bump to crDroid 10.11 release
 - December security patches
 
 ===== 20241117 =====
