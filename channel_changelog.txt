@@ -3,14 +3,11 @@ Build type: Monthly
 Device: Motorola Moto G7 Play (channel)
 Device maintainer: Lightzin021
 
-===== 20241212 =====
-- Bump to crDroid 10.11 release
-- January security patches
+===== 2025-01-25 =====
+- Bump to crDroid 10.12 release
 
-===== 20241212 =====
+===== 2024-12-12 =====
 - Bump to crDroid 10.11 release
-- December security patches
 
-===== 20241117 =====
+===== 2024-11-17 =====
 - Initial crDroid 10.10 release
-- November security patches
