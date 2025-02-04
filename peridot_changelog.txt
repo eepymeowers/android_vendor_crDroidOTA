@@ -4,6 +4,36 @@ Device: Poco F6  (Peridot)
 Device maintainer: Vikas Yaduvanshi (Vikas_2_0)
 Required firmware: Android 14
 
+
+===== 20250204 =====
+- Certification: update props to the latest lynx beta
+- DeskClock: Fix angles in dynamic icon
+- SystemUI: Fix Flashlight tile for A11 QS style
+- SystemUI: Fix Internet Tile showing no service
+- Bluetooth: fetch battery level from any device
+- Status Bar Tuner: Fix preference icon tint
+- AudioService: do not block focus request from applications compiled with lower version sdks
+- fixup! base: Allow customizing volume stream steps
+- Updated themed icons
+- Updated Twelve, Glimpse, Eleven
+- Updated translations
+- Reverted ultrasound audio hack
+- Added master   Thermal profiling  switch for better accessibility
+- Added Spatial Audio support 
+- Re-Added leica camera 
+- Switch to better thermal support hals
+- fast charging included 
+- improved Thermal profile and qs tiles 
+- Fixup missing sepolicy denials
+- Updated default kernel to 10.12
+- And reverted sim  reset settings commit 
+- fixes google voice recorder
+- fixes speaker during call
+- Fix mic issues in apps like WhatsApp, telegram
+
+
+
+
 ====================
      01-29-2025
 ====================
