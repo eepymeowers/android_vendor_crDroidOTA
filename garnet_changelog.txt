@@ -3,6 +3,16 @@ Build type: Weekly
 Device: Redmi Note 13 Pro 5G / Poco X6 5G (garnet)
 Device maintainer: JYR_RC
 
+===== 02 February, 2025 =====
+
+- Fixed WhatsApp calls (normal and speaker)
+- Certification: update props to the latest lynx beta
+- Update NLSound 4.1 (Dolby)
+- Switch to stock kernel 5.10.198
+- Thanks grewal and contributors for source base tree
+- Thanks Sokolataki1 For testing
+- Ota Support
+
 ===== 19 January, 2025 =====
 
 - Synced with latest Crdroid changes as of 19 Jan,2025
