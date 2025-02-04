@@ -6,6 +6,20 @@ Build type: Weekly
 Device: Redmi Note 12 5G / Poco X5 5G
 Device maintainer: Ishaan
 
+===== 03-02-2025 =====
+
+* Certification: update props to the latest lynx beta
+* DeskClock: Fix angles in dynamic icon
+* SystemUI: Fix Flashlight tile for A11 QS style
+* SystemUI: Fix Internet Tile showing no service
+* Bluetooth: fetch battery level from any device
+* Status Bar Tuner: Fix preference icon tint
+* AudioService: do not block focus request from applications compiled with lower version sdks
+* fixup! base: Allow customizing volume stream steps
+* Updated themed icons
+* Updated Twelve, Glimpse, Eleven
+* Updated translations
+
 ===== 24-01-2025 =====
 
 * Synced with latest crDroidAndroid source code
