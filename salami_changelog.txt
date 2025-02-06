@@ -1,10 +1,20 @@
 Highlights & Device Specific Changes:
-Build type: Weekly
+Build type: Monthly
 Device: OnePlus 11 5G (salami)
 Device maintainer: Pranav Vashi (neobuddy89)
 
 Highlights & Device Specific Changes:
 
+==================================
+6th February, 2025
+
+* Make launcher app drawer background opaque and improve colors
+* Fix lens shortcut on searchbar of launcher
+* Fix crash while using sidebar in some instances
+* Fix icon shapes not visible in Wallpaper & Styles
+* Disabled AOSP frame rate limit for games
+* Various fixes and improvements
+ 
 ==================================
 19th January, 2025
 
