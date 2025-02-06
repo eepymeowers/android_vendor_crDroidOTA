@@ -4,6 +4,13 @@ Device: OnePlus 5T (dumpling)
 Device maintainer: Zed (Zed9K)
 
 ====================
+     06-02-2025
+====================
+- crDroid 11.1 Stable build
+- Upstream to latest changes by crDroid
+- Bug fixes
+
+====================
      20-12-2024
 ====================
 - crDroid 11.0 Stable build
