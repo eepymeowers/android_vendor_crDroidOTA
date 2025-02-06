@@ -6,6 +6,15 @@ Device maintainer: Pranav Vashi (neobuddy89)
 Highlights & Device Specific Changes:
 
 ==================================
+6th February, 2025
+
+* Various fixes and improvements
+* vayu: Removed deprecated OMX and replaced with c2 media codecs
+* vayu: Switched to KernelSu Next + SusFS support
+* vayu: Performance tunings for kernel
+* vayu: Switched to clang-20 for kernel
+ 
+==================================
 26th January, 2025
 
 * Add toggle to always show compact headsup for notification (crdroid > notifications)
