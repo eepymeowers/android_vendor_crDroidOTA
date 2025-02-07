@@ -3,6 +3,14 @@ Build type: Weekly
 Device: OnePlus 9 (lemonade)
 Device maintainer: Lup Gabriel (gwolfu)
 
+===== 7 February, 2025 =====
+
+- Launcher3: Update folder preview and background color
+- SystemUI: Apply burn-in translations to weather view as well
+- SystemUI: Prevent indicator text cutting off in biometric prompt
+- SystemUI: Implement pocket lock check for faceunlock
+- Fixed support per-app volume
+
 ===== 1 February, 2025 =====
 
 - Updated KernelSU to v1.0.3-4-legacy
