@@ -6,6 +6,14 @@ Build type: Weekly
 Device: Redmi Note 12 5G / Poco X5 5G
 Device maintainer: Ishaan
 
+===== 07-02-2025 =====
+
+* Synced with latest crDroidAndroid source code
+* Launcher3: Update folder preview and background color
+* SystemUI: Apply burn-in translations to weather view as well
+* Various fixes and improvements
+* Improved overall stability and performance
+
 ===== 03-02-2025 =====
 
 * Certification: update props to the latest lynx beta
