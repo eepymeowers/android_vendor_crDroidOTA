@@ -4,6 +4,29 @@ Device: Xiaomi MI9 (cepheus)
 Device maintainer: raystef66
 Required firmware: V12.5.6.0.RFACNXM
 
+===== 08.02.2025 =====
+
+* Kernel synced to InfiniR cepheus v1.39_KSUN
+* KSU-next 1.04 / susfs 1.5.5
+* Launcher3: Update folder preview and background color
+* SystemUI: Apply burn-in translations to weather view as well
+* SystemUI: Prevent indicator text cutting off in biometric prompt
+* SystemUI: Implement pocket lock check for faceunlock
+* Fixed support per-app volume
+* Certification: update props to the latest lynx beta
+* DeskClock: Fix angles in dynamic icon
+* SystemUI: Fix Flashlight tile for A11 QS style
+* SystemUI: Fix Internet Tile showing no service
+* Bluetooth: fetch battery level from any device
+* Status Bar Tuner: Fix preference icon tint
+* AudioService: do not block focus request from applications compiled with lower version sdks
+* fixup! base: Allow customizing volume stream steps
+* Updated themed icons
+* Updated Twelve, Glimpse, Eleven
+* Synced with latest sources
+* Updated translations
+* Some other fixes and improvements
+
 ===== 02.02.2025 =====
 
 * Kernel synced to InfiniR cepheus v1.38_KSUN
