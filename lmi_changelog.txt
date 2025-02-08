@@ -4,6 +4,27 @@ Device: POCO F2 Pro
 Device maintainer: raystef66
 Required firmware: V14.0.1.0.SJKMIXM
 
+===== 08-02-2025 =====
+
+* Launcher3: Update folder preview and background color
+* SystemUI: Apply burn-in translations to weather view as well
+* SystemUI: Prevent indicator text cutting off in biometric prompt
+* SystemUI: Implement pocket lock check for faceunlock
+* Fixed support per-app volume
+* Certification: update props to the latest lynx beta
+* DeskClock: Fix angles in dynamic icon
+* SystemUI: Fix Flashlight tile for A11 QS style
+* SystemUI: Fix Internet Tile showing no service
+* Bluetooth: fetch battery level from any device
+* Status Bar Tuner: Fix preference icon tint
+* AudioService: do not block focus request from applications compiled with lower version sdks
+* fixup! base: Allow customizing volume stream steps
+* Updated themed icons
+* Updated Twelve, Glimpse, Eleven
+* Synced with latest sources
+* Updated translations
+* Some other fixes and improvements
+
 ===== 01-02-2025 =====
 
 * Kernel synced to Perf LMI v311a_KSUN
