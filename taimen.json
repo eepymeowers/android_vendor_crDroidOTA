@@ -22,7 +22,7 @@
 			"telegram": "https://t.me/ionutbuilds",
 			"dt": "https://github.com/crdroidandroid/android_device_google_taimen",
 			"common-dt": "https://github.com/crdroidandroid/android_device_google_wahoo",
-			"kernel": "https://github.com/crdroidandroid/android_kernel_google_wahoo"
+			"kernel": "https://github.com/crdroidandroid/android_kernel_google_wahoo "
 		}
 	]
 }
