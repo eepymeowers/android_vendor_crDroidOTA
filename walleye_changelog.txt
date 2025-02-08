@@ -5,6 +5,19 @@ Device maintainer: Ionut Gherman (ionutgherman)
 
 Highlights & Device Specific Changes:
 =====================================
+08th February, 2025
+===================
+ROM changes:
+• Launcher3: Update folder preview and background color
+• SystemUI: Apply burn-in translations to weather view as well
+• SystemUI: Prevent indicator text cutting off in biometric prompt
+• SystemUI: Implement pocket lock check for faceunlock
+• SystemUI: Fixed status bar icon padding
+• SystemUI: Fixed less boring heads up
+• Fixed support per-app volume
+• Bug fixes and other improvements
+• Updated translations
+===================
 19th January, 2025
 ==================
 ROM changes:
