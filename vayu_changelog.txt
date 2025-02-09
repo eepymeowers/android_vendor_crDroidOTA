@@ -1,10 +1,22 @@
 Highlights & Device Specific Changes:
-Build type: Weekly
+Build type: Monthly
 Device: Poco X3 Pro (vayu)
 Device maintainer: Pranav Vashi (neobuddy89)
 
 Highlights & Device Specific Changes:
 
+==================================
+9th February, 2025
+
+* Android February 2025 Security Update
+* Fixed "Less boring heads-up" option (crdroid > notifications)
+* Fixed compact heads-up toggle not working in some instances (crdroid > notifications)
+* Moved "Circle to search" toggle to navigation gesture settings, improving 3rd party launcher support.
+* Navigation gesture settings are now located under Settings > System
+* Various fixes and improvements
+* vayu: Fixed media codec issues breaking few apps
+* vayu: Kernel fixes from mainstream
+ 
 ==================================
 6th February, 2025
 
