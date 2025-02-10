@@ -4,6 +4,21 @@ Device: Nintendo Switch (nx_tab)
 Device maintainer: Ivy (Lost-Entrepreneur439)
 Required firmware: Hekate 6.1.0
 
+===== 02-10-2025 =====
+- Update to crDroid 11.2
+- nx: build: Fix bootloader rules for target-files target
+- nx: sepolicy: Interact with hwservicemanager correctly
+- bootfiles: Update emmc note
+- devicesettings: update to sdk 33
+- devicesettings: Use SettingsLib themes
+- fixup! extract: Extract bootloader blobs if available
+- tegra: gate edk2 on new flag
+- tegra: edk2: reduce revision date precision
+- Swap fwk matrix include from := -> +=
+- common: Use hal_attribute_hwservice macro
+- common: vendor: Allow Power HAL to access persist.vendor.power.brick
+- Revert "mm: introduce ultra kernel samepage merging"
+
 ===== 01-19-2025 =====
 - Update to crDroid 11.1
 - uscript: match L4T in function and style
