@@ -11,7 +11,7 @@ Highlights & Device Specific Changes:
 * Fixed crash in gesture settings when taskbar enabled
 * Fixed crash on Locale tile long press
 * tokay: Added cutout options for rendering below status bar and hiding status bar (developer options)
-* tokay: Added fee missing app config overlays from google
+* tokay: Added few missing app config overlays from google
  
 ==================================
 9th February, 2025
