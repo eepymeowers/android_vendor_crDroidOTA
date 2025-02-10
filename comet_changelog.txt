@@ -6,6 +6,13 @@ Device maintainer: Pranav Vashi (neobuddy89)
 Highlights & Device Specific Changes:
 
 ==================================
+10th February, 2025
+
+* Fixed crash in gesture settings when taskbar enabled
+* Fixed crash on Locale tile long press
+* comet: Added fee missing app config overlays from google
+ 
+==================================
 9th February, 2025
 
 * Android February 2025 Security Update
