@@ -3,6 +3,35 @@ Build type: Weekly
 Device: OnePlus 7T PRO (hotdog)
 Device maintainer: ShEV (ShevT)
 
+===== 20250210 =====
+!!! Attention !!!
+Now we will use a KernelSU Next.
+If you have the KernelSU manager installed, you must, before updating
+the firmware, revoke the SU permission from all programs that have
+been granted root rights. You must also remove all installed
+modules and the KernelSU manager itself.
+After updating the firmware, you can reinstall the kernelSU manager.
+You can download it from this link - https://github.com/rifsxd/KernelSU-Next/releases
+
+- Initial crDroid 11.2
+- Updated security patches to February 2025 (android-15.0.0_r14)
+- Kernel CVE patches
+- Other changes and improvements in the kernel
+- Switch KernelSU rsuntk fork to KernelSU Next 1.0.4 with SUSFS v1.5.5
+- Fixed less boring heads up option
+- Moved Circle to search toggle to navigation gesture settings to facilate use with 3rd party launchers
+- Moved navigation gesture settings to Settings > System
+- Fixed google's battery widget not working
+- Launcher3: Update folder preview and background color
+- SystemUI: Apply burn-in translations to weather view as well
+- SystemUI: Prevent indicator text cutting off in biometric prompt
+- SystemUI: Implement pocket lock check for faceunlock
+- Fixed support per-app volume
+- Devicetree: Disable FRP
+- Devicetree: Remove OMX codecs
+- Updated translations
+- Some other fixes
+
 ===== 20250203 =====
 - Certification: update props to the latest lynx beta
 - DeskClock: Fix angles in dynamic icon
