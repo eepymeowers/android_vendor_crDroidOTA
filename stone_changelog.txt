@@ -6,6 +6,21 @@ Build type: Weekly
 Device: Redmi Note 12 5G / Poco X5 5G
 Device maintainer: Ishaan
 
+===== 10-02-2025 =====
+
+* Synced with latest crDroidAndroid source code
+* Android February 2025 Security Update (android-15.0.0_r14)
+* stone: Do not balance msm_drm and kgsl_3d0 IRQs
+* Fixed "Less boring heads-up" option (crdroid > notifications)
+* Added compact heads-up toggle (crdroid > notifications)
+* Moved Circle to search toggle to navigation gesture settings to facilate use with 3rd party launchers
+* Moved navigation gesture settings to Settings > System    
+* Fixed google's battery widget not working
+* Fixed crash on Locale tile long press
+* Updated translations
+* Various fixes and improvements
+* Improved overall stability and performance
+
 ===== 07-02-2025 =====
 
 * Synced with latest crDroidAndroid source code
