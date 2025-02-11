@@ -4,6 +4,12 @@ Device: Motorola Edge 30 (dubai)
 Device maintainer: Rakhshan (shan_rakh)
 
 ====================
+     10-02-2025
+====================
+- crDroid 11.2
+- February Security Patch
+
+====================
      03-02-2025
 ====================
 - Added support for KernelSU Next (1.0.4)
