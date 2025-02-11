@@ -4,6 +4,18 @@ Device: Xiaomi MI9 (cepheus)
 Device maintainer: raystef66
 Required firmware: V12.5.6.0.RFACNXM
 
+===== 11.02.2025 =====
+
+* Initial crDroid 11.2 stable release
+* Updated to sec. patch level 2025.02
+* Fixed less boring heads up option
+* Moved Circle to search toggle to navigation gesture settings to facilitate use with 3rd party launchers
+* Moved navigation gesture settings to Settings > System
+* Fixed google's battery widget not working
+* Synced with latest sources
+* Updated translations
+* Some other fixes and improvements
+
 ===== 08.02.2025 =====
 
 * Kernel synced to InfiniR cepheus v1.39_KSUN
