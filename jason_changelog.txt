@@ -9,3 +9,8 @@ Device maintainer: Mert Özkan (inits)
 - Switch to QTI Memtrack AIDL HAL
 - Update display flags & packages
 - January Security Patch
+
+===== 12-02-2025 =====
+
+- February Security Patch
+- OMX blobs removed
