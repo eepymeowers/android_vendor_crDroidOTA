@@ -1,7 +1,11 @@
 Highlights & Device Specific Changes:
-Build type: BETA
+Build type: Monthly
 Device: Redmi 9
 Device maintainer: Abhinav (hipexscape)
+
+===== 11-02-2025 =====
+- Remove leftover VP9 mediatek OMX reference
+- Improve brightness 
 
 ===== 21-01-2025 =====
 - Disable unnecessary alpha transformations in animations
